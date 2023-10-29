@@ -1,10 +1,10 @@
-mod hsla_tests;
-mod color_scale_tests;
-mod color_scale_set_tests;
-mod ui_color_tests;
-mod theme_tests;
-mod theme_family_tests;
-mod theme_registry_tests;
+pub mod hsla_tests;
+pub mod color_scale_tests;
+pub mod color_scale_set_tests;
+pub mod ui_color_tests;
+pub mod theme_tests;
+pub mod theme_family_tests;
+pub mod theme_registry_tests;
 
 #[cfg(test)]
 mod tests {
