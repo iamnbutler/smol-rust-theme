@@ -1,0 +1,32 @@
+```toml
+name = "Sample User Theme Family"
+author = "User"
+
+[[variant]]
+name = "Light Theme"
+appearance = "light"
+
+[[variant.theme_color]]
+name = "background"
+value = "hsla(0, 0%, 100%, 1)"
+documentation = "Background color for light theme"
+
+[[variant.theme_color]]
+name = "text"
+value = "hsla(0, 0%, 0%, 1)"
+documentation = "Text color for light theme"
+
+[[variant]]
+name = "Dark Theme"
+appearance = "dark"
+
+[[variant.theme_color]]
+name = "background"
+value = "hsla(0, 0%, 0%, 1)"
+documentation = "Background color for dark theme"
+
+[[variant.theme_color]]
+name = "text"
+value = "hsla(0, 0%, 100%, 1)"
+documentation = "Text color for dark theme"
+```

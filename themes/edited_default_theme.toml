@@ -1,0 +1,33 @@
+```toml
+[theme_family]
+name = "Edited Default Theme"
+author = "System"
+
+[[theme_family.variant]]
+name = "Edited Light Theme"
+appearance = "light"
+
+[[theme_family.variant.theme_color]]
+name = "background"
+value = "hsla(0, 0%, 100%, 1)"
+documentation = "Background color for light theme"
+
+[[theme_family.variant.theme_color]]
+name = "text"
+value = "hsla(0, 0%, 0%, 1)"
+documentation = "Text color for light theme"
+
+[[theme_family.variant]]
+name = "Edited Dark Theme"
+appearance = "dark"
+
+[[theme_family.variant.theme_color]]
+name = "background"
+value = "hsla(0, 0%, 0%, 1)"
+documentation = "Background color for dark theme"
+
+[[theme_family.variant.theme_color]]
+name = "text"
+value = "hsla(0, 0%, 100%, 1)"
+documentation = "Text color for dark theme"
+```
