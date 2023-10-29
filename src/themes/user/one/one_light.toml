@@ -1,0 +1,23 @@
+```toml
+[theme]
+name = "one_light"
+appearance = "light"
+
+[colors]
+background = { scale = "gray", index = 0 }
+foreground = { scale = "gray", index = 10 }
+primary = { scale = "blue", index = 5 }
+secondary = { scale = "green", index = 5 }
+error = { scale = "red", index = 5 }
+warning = { scale = "yellow", index = 5 }
+info = { scale = "blue", index = 7 }
+success = { scale = "green", index = 7 }
+
+[overrides]
+"Button.background" = { scale = "blue", index = 5 }
+"Button.foreground" = { scale = "gray", index = 0 }
+"Button.hoverBackground" = { scale = "blue", index = 7 }
+"Button.hoverForeground" = { scale = "gray", index = 0 }
+"Button.activeBackground" = { scale = "blue", index = 9 }
+"Button.activeForeground" = { scale = "gray", index = 0 }
+```
