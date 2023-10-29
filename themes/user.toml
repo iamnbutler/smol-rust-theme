@@ -1,0 +1,42 @@
+```toml
+# User Theme
+[theme_family]
+name = "User Theme"
+author = "User"
+
+[[theme_family.themes]]
+name = "User Light Theme"
+appearance = "light"
+
+[theme_family.themes.ui_colors]
+app_background = { name = "App Background", value = { h = 0.0, s = 0.0, l = 0.9, a = 1.0 }, description = "Background color of the app" }
+subtle_background = { name = "Subtle Background", value = { h = 0.0, s = 0.0, l = 0.8, a = 1.0 }, description = "Background color for UI elements" }
+ui_element = { name = "UI Element", value = { h = 0.0, s = 0.0, l = 0.7, a = 1.0 }, description = "Main color for UI elements" }
+hovered_ui = { name = "Hovered UI", value = { h = 0.0, s = 0.0, l = 0.6, a = 1.0 }, description = "Color for hovered UI elements" }
+active_ui = { name = "Active UI", value = { h = 0.0, s = 0.0, l = 0.5, a = 1.0 }, description = "Color for active UI elements" }
+subtle_borders = { name = "Subtle Borders", value = { h = 0.0, s = 0.0, l = 0.4, a = 1.0 }, description = "Color for subtle borders" }
+ui_element_border = { name = "UI Element Border", value = { h = 0.0, s = 0.0, l = 0.3, a = 1.0 }, description = "Color for UI element borders" }
+hovered_ui_border = { name = "Hovered UI Border", value = { h = 0.0, s = 0.0, l = 0.2, a = 1.0 }, description = "Color for hovered UI element borders" }
+solid_backgrounds = { name = "Solid Backgrounds", value = { h = 0.0, s = 0.0, l = 0.1, a = 1.0 }, description = "Color for solid backgrounds" }
+hovered_solid_backgrounds = { name = "Hovered Solid Backgrounds", value = { h = 0.0, s = 0.0, l = 0.0, a = 1.0 }, description = "Color for hovered solid backgrounds" }
+low_contrast_text = { name = "Low Contrast Text", value = { h = 0.0, s = 0.0, l = 0.7, a = 1.0 }, description = "Color for low contrast text" }
+high_contrast_text = { name = "High Contrast Text", value = { h = 0.0, s = 0.0, l = 0.0, a = 1.0 }, description = "Color for high contrast text" }
+
+[[theme_family.themes]]
+name = "User Dark Theme"
+appearance = "dark"
+
+[theme_family.themes.ui_colors]
+app_background = { name = "App Background", value = { h = 0.0, s = 0.0, l = 0.1, a = 1.0 }, description = "Background color of the app" }
+subtle_background = { name = "Subtle Background", value = { h = 0.0, s = 0.0, l = 0.2, a = 1.0 }, description = "Background color for UI elements" }
+ui_element = { name = "UI Element", value = { h = 0.0, s = 0.0, l = 0.3, a = 1.0 }, description = "Main color for UI elements" }
+hovered_ui = { name = "Hovered UI", value = { h = 0.0, s = 0.0, l = 0.4, a = 1.0 }, description = "Color for hovered UI elements" }
+active_ui = { name = "Active UI", value = { h = 0.0, s = 0.0, l = 0.5, a = 1.0 }, description = "Color for active UI elements" }
+subtle_borders = { name = "Subtle Borders", value = { h = 0.0, s = 0.0, l = 0.6, a = 1.0 }, description = "Color for subtle borders" }
+ui_element_border = { name = "UI Element Border", value = { h = 0.0, s = 0.0, l = 0.7, a = 1.0 }, description = "Color for UI element borders" }
+hovered_ui_border = { name = "Hovered UI Border", value = { h = 0.0, s = 0.0, l = 0.8, a = 1.0 }, description = "Color for hovered UI element borders" }
+solid_backgrounds = { name = "Solid Backgrounds", value = { h = 0.0, s = 0.0, l = 0.9, a = 1.0 }, description = "Color for solid backgrounds" }
+hovered_solid_backgrounds = { name = "Hovered Solid Backgrounds", value = { h = 0.0, s = 0.0, l = 1.0, a = 1.0 }, description = "Color for hovered solid backgrounds" }
+low_contrast_text = { name = "Low Contrast Text", value = { h = 0.0, s = 0.0, l = 0.3, a = 1.0 }, description = "Color for low contrast text" }
+high_contrast_text = { name = "High Contrast Text", value = { h = 0.0, s = 0.0, l = 1.0, a = 1.0 }, description = "Color for high contrast text" }
+```

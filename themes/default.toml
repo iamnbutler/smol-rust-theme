@@ -1,0 +1,24 @@
+```toml
+# Default ThemeFamily
+name = "Default"
+author = "System"
+
+# Default ColorScaleSet
+[ColorScaleSet]
+name = "default"
+light = ["#FFFFFF", "#F0F0F0", "#D9D9D9", "#BFBFBF", "#A6A6A6", "#8C8C8C", "#737373", "#595959", "#404040", "#262626", "#0D0D0D", "#000000"]
+dark = ["#000000", "#0D0D0D", "#262626", "#404040", "#595959", "#737373", "#8C8C8C", "#A6A6A6", "#BFBFBF", "#D9D9D9", "#F0F0F0", "#FFFFFF"]
+light_alpha = ["#FFFFFF00", "#F0F0F000", "#D9D9D900", "#BFBFBF00", "#A6A6A600", "#8C8C8C00", "#73737300", "#59595900", "#40404000", "#26262600", "#0D0D0D00", "#00000000"]
+dark_alpha = ["#00000000", "#0D0D0D00", "#26262600", "#40404000", "#59595900", "#73737300", "#8C8C8C00", "#A6A6A600", "#BFBFBF00", "#D9D9D900", "#F0F0F000", "#FFFFFF00"]
+
+# Default Themes
+[[Theme]]
+name = "Light"
+appearance = "light"
+UIColors = ["#FFFFFF", "#F0F0F0", "#D9D9D9", "#BFBFBF", "#A6A6A6", "#8C8C8C", "#737373", "#595959", "#404040", "#262626", "#0D0D0D", "#000000"]
+
+[[Theme]]
+name = "Dark"
+appearance = "dark"
+UIColors = ["#000000", "#0D0D0D", "#262626", "#404040", "#595959", "#737373", "#8C8C8C", "#A6A6A6", "#BFBFBF", "#D9D9D9", "#F0F0F0", "#FFFFFF"]
+```
