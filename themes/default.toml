@@ -1,0 +1,35 @@
+```toml
+[theme]
+name = "default"
+author = "system"
+
+[[theme.scales]]
+name = "light"
+app_background = { h = 0.0, s = 0.0, l = 0.9, a = 1.0 }
+subtle_background = { h = 0.0, s = 0.0, l = 0.8, a = 1.0 }
+ui_element = { h = 0.0, s = 0.0, l = 0.7, a = 1.0 }
+hovered_ui = { h = 0.0, s = 0.0, l = 0.6, a = 1.0 }
+active_selected_ui = { h = 0.0, s = 0.0, l = 0.5, a = 1.0 }
+subtle_borders = { h = 0.0, s = 0.0, l = 0.4, a = 1.0 }
+ui_element_border = { h = 0.0, s = 0.0, l = 0.3, a = 1.0 }
+hovered_ui_border = { h = 0.0, s = 0.0, l = 0.2, a = 1.0 }
+solid_backgrounds = { h = 0.0, s = 0.0, l = 0.1, a = 1.0 }
+hovered_solid_backgrounds = { h = 0.0, s = 0.0, l = 0.0, a = 1.0 }
+low_contrast_text = { h = 0.0, s = 0.0, l = 0.5, a = 1.0 }
+high_contrast_text = { h = 0.0, s = 0.0, l = 0.0, a = 1.0 }
+
+[[theme.scales]]
+name = "dark"
+app_background = { h = 0.0, s = 0.0, l = 0.1, a = 1.0 }
+subtle_background = { h = 0.0, s = 0.0, l = 0.2, a = 1.0 }
+ui_element = { h = 0.0, s = 0.0, l = 0.3, a = 1.0 }
+hovered_ui = { h = 0.0, s = 0.0, l = 0.4, a = 1.0 }
+active_selected_ui = { h = 0.0, s = 0.0, l = 0.5, a = 1.0 }
+subtle_borders = { h = 0.0, s = 0.0, l = 0.6, a = 1.0 }
+ui_element_border = { h = 0.0, s = 0.0, l = 0.7, a = 1.0 }
+hovered_ui_border = { h = 0.0, s = 0.0, l = 0.8, a = 1.0 }
+solid_backgrounds = { h = 0.0, s = 0.0, l = 0.9, a = 1.0 }
+hovered_solid_backgrounds = { h = 0.0, s = 0.0, l = 1.0, a = 1.0 }
+low_contrast_text = { h = 0.0, s = 0.0, l = 0.5, a = 1.0 }
+high_contrast_text = { h = 0.0, s = 0.0, l = 1.0, a = 1.0 }
+```
