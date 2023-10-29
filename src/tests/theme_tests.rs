@@ -1,4 +1,3 @@
-```rust
 use super::super::utils::theme::Theme;
 use super::super::utils::ui_color::UIColor;
 use super::super::utils::hsla::Hsla;
@@ -38,4 +37,3 @@ fn test_theme_modify_color() {
     theme.modify_color("Test Color", modified_color.clone());
     assert_eq!(theme.colors.get("Test Color"), Some(&modified_color));
 }
-```

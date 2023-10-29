@@ -1,4 +1,3 @@
-```rust
 use super::super::utils::hsla::{Hsla, hsla};
 
 #[cfg(test)]
@@ -28,4 +27,3 @@ mod tests {
         assert_ne!(color1, color2);
     }
 }
-```

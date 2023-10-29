@@ -1,4 +1,3 @@
-```rust
 use std::borrow::Cow;
 use crate::utils::hsla::Hsla;
 use crate::utils::color_scale::ColorScale;
@@ -45,4 +44,3 @@ impl<'a> UIColor<'a> {
         &self.description
     }
 }
-```

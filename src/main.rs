@@ -1,8 +1,11 @@
-```rust
 use std::fs;
 use std::path::Path;
 use crate::themes::{system, user};
 use crate::utils::{theme_registry::ThemeRegistry, theme_family::ThemeFamily};
+
+mod themes;
+mod utils;
+mod tests;
 
 fn main() {
     let mut theme_registry = ThemeRegistry::new();
@@ -35,4 +38,3 @@ fn main() {
     // Alphabetically list all light/dark themes
     theme_registry.list_themes_alphabetically();
 }
-```

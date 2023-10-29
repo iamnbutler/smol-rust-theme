@@ -1,4 +1,3 @@
-```rust
 mod hsla_tests;
 mod color_scale_tests;
 mod color_scale_set_tests;
@@ -22,4 +21,3 @@ mod tests {
         theme_registry_tests::run_tests();
     }
 }
-```

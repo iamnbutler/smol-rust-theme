@@ -1,4 +1,3 @@
-```rust
 use crate::utils::hsla::Hsla;
 
 /// A ColorScale represents the range of values a color can have.
@@ -47,4 +46,3 @@ mod tests {
         assert_eq!(scale.get(12), None);
     }
 }
-```

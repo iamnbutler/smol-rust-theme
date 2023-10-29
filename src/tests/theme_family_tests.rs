@@ -1,4 +1,3 @@
-```rust
 use super::super::utils::theme_family::ThemeFamily;
 use super::super::utils::theme::Theme;
 use super::super::utils::color_scale_set::ColorScaleSet;
@@ -50,4 +49,3 @@ mod tests {
         assert_eq!(theme_family.color_scale_sets.len(), 0);
     }
 }
-```

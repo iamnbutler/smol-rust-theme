@@ -1,4 +1,3 @@
-```rust
 use super::super::utils::color_scale::ColorScale;
 use super::super::utils::hsla::Hsla;
 
@@ -45,4 +44,3 @@ fn test_color_scale_modification() {
     color_scale.set(0, Hsla::new(0.2, 0.2, 0.2, 0.2));
     assert_eq!(color_scale.get(0), Some(&Hsla::new(0.2, 0.2, 0.2, 0.2)));
 }
-```

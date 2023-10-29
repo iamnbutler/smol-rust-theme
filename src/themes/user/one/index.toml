@@ -1,4 +1,3 @@
-```toml
 name = "One"
 author = "User"
 scales = [
@@ -8,4 +7,3 @@ scales = [
     { name = "dark_alpha", values = ["#00000000", "#08080800", "#10101000", "#18181800", "#20202000", "#28282800", "#30303000", "#38383800", "#40404000", "#48484800", "#50505000", "#58585800"] }
 ]
 themes = ["one_light.toml", "one_light_material.toml", "one_dark.toml", "one_darker.toml"]
-```

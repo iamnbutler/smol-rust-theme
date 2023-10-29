@@ -1,4 +1,3 @@
-```rust
 #[derive(Default, Copy, Clone, Debug, PartialEq)]
 #[repr(C)]
 pub struct Hsla {
@@ -16,4 +15,3 @@ pub fn hsla(h: f32, s: f32, l: f32, a: f32) -> Hsla {
         a: a.clamp(0., 1.),
     }
 }
-```

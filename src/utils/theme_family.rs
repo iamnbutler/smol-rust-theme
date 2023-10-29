@@ -1,4 +1,3 @@
-```rust
 use std::collections::BTreeMap;
 use std::borrow::Cow;
 use super::theme::Theme;
@@ -43,4 +42,3 @@ impl<'a> ThemeFamily<'a> {
         self.themes.push(theme);
     }
 }
-```

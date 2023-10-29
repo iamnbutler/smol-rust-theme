@@ -1,4 +1,3 @@
-```rust
 use std::collections::BTreeMap;
 use std::borrow::Cow;
 use super::hsla::Hsla;
@@ -53,4 +52,3 @@ impl<'a> Theme<'a> {
         }
     }
 }
-```

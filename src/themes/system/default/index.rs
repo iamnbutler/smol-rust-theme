@@ -1,4 +1,3 @@
-```rust
 use crate::utils::theme::Theme;
 use crate::utils::color_scale_set::ColorScaleSet;
 
@@ -41,4 +40,3 @@ impl ThemeFamily {
         self
     }
 }
-```

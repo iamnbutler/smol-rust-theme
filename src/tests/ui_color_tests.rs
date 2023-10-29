@@ -1,4 +1,3 @@
-```rust
 use super::super::utils::ui_color::UIColor;
 use super::super::utils::hsla::Hsla;
 use super::super::utils::color_scale::ColorScale;
@@ -38,4 +37,3 @@ mod tests {
         assert_eq!(ui_color.description, "Test Description");
     }
 }
-```

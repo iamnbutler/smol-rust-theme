@@ -1,4 +1,3 @@
-```rust
 use super::super::utils::theme_registry::ThemeRegistry;
 use super::super::utils::theme::Theme;
 use super::super::utils::theme_family::ThemeFamily;
@@ -30,4 +29,3 @@ fn test_theme_registry() {
     assert!(theme_registry.get_theme("test", "test").is_none());
     assert!(theme_registry.get_ui_color("test", "test", "test").is_none());
 }
-```

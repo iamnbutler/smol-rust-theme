@@ -1,4 +1,3 @@
-```toml
 [theme]
 name = "one_light"
 appearance = "light"
@@ -20,4 +19,3 @@ success = { scale = "green", index = 7 }
 "Button.hoverForeground" = { scale = "gray", index = 0 }
 "Button.activeBackground" = { scale = "blue", index = 9 }
 "Button.activeForeground" = { scale = "gray", index = 0 }
-```

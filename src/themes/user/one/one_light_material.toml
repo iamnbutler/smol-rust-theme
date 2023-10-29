@@ -1,4 +1,3 @@
-```toml
 [theme]
 name = "one_light_material"
 appearance = "light"
@@ -18,4 +17,3 @@ warning = { scale = "yellow", index = 5 }
 "Button.hover_foreground" = { scale = "gray", index = 0 }
 "Button.active_background" = { scale = "blue", index = 9 }
 "Button.active_foreground" = { scale = "gray", index = 0 }
-```

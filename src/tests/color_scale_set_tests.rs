@@ -1,4 +1,3 @@
-```rust
 use super::super::utils::color_scale_set::ColorScaleSet;
 use super::super::utils::hsla::Hsla;
 
@@ -34,4 +33,3 @@ fn test_color_scale_set_default() {
     assert_eq!(color_scale_set.light_alpha, [Hsla::default(); 12]);
     assert_eq!(color_scale_set.dark_alpha, [Hsla::default(); 12]);
 }
-```

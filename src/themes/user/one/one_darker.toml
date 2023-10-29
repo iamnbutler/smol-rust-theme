@@ -1,4 +1,3 @@
-```toml
 [theme]
 name = "one_darker"
 appearance = "dark"
@@ -12,4 +11,3 @@ error = { scale = "red", index = 9 }
 warning = { scale = "yellow", index = 9 }
 info = { scale = "blue", index = 7 }
 success = { scale = "green", index = 9 }
-```

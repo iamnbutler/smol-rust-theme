@@ -1,4 +1,3 @@
-```rust
 use crate::utils::hsla::Hsla;
 use crate::utils::color_scale::ColorScale;
 
@@ -61,4 +60,3 @@ mod tests {
         assert!(set.get_scale("nonexistent").is_none());
     }
 }
-```

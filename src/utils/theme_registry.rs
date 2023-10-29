@@ -1,4 +1,3 @@
-```rust
 use std::collections::BTreeMap;
 use std::sync::RwLock;
 use super::theme::Theme;
@@ -35,4 +34,3 @@ impl ThemeRegistry {
         themes.keys().cloned().collect()
     }
 }
-```
