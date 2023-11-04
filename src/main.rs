@@ -1,40 +1,34 @@
-use std::fs;
-use std::path::Path;
-use crate::themes::{system, user};
-use crate::utils::{theme_registry::ThemeRegistry, theme_family::ThemeFamily};
-
-mod themes;
-mod utils;
-mod tests;
+```rust
+use std::collections::BTreeMap;
+use crate::ui_color::UIColor;
+use crate::color_scale::ColorScale;
+use crate::color_scale_set::ColorScaleSet;
+use crate::ui_colors::UIColors;
+use crate::theme::Theme;
 
 fn main() {
-    let mut theme_registry = ThemeRegistry::new();
+    let mut color_scale_sets: BTreeMap<String, ColorScaleSet> = BTreeMap::new();
+    let mut ui_colors: BTreeMap<String, UIColor> = BTreeMap::new();
 
-    // Load system themes
-    let system_theme_path = Path::new("src/themes/system");
-    if let Ok(entries) = fs::read_dir(system_theme_path) {
-        for entry in entries {
-            if let Ok(entry) = entry {
-                let theme_family: ThemeFamily = system::load_theme_family(entry.path());
-                theme_registry.add_theme_family(theme_family);
-            }
-        }
-    }
+    // Initialize default ColorScaleSets
+    color_scale_sets.insert("gray".to_string(), ColorScaleSet::default());
+    color_scale_sets.insert("red".to_string(), ColorScaleSet::default());
+    color_scale_sets.insert("green".to_string(), ColorScaleSet::default());
+    color_scale_sets.insert("blue".to_string(), ColorScaleSet::default());
+    color_scale_sets.insert("yellow".to_string(), ColorScaleSet::default());
 
-    // Load user themes
-    let user_theme_path = Path::new("src/themes/user");
-    if let Ok(entries) = fs::read_dir(user_theme_path) {
-        for entry in entries {
-            if let Ok(entry) = entry {
-                let theme_family: ThemeFamily = user::load_theme_family(entry.path());
-                theme_registry.add_theme_family(theme_family);
-            }
-        }
-    }
+    // Initialize UIColors
+    ui_colors.insert("filled-element-background".to_string(), UIColor::new("filled-element-background", ColorScale::default(), "Used for the background of filled elements, like buttons and checkboxes."));
 
-    // Display themes in the registry & their details
-    theme_registry.display_themes();
+    // Create a new theme
+    let theme = Theme::new(ui_colors, color_scale_sets);
 
-    // Alphabetically list all light/dark themes
-    theme_registry.list_themes_alphabetically();
+    // Access a UIColor
+    let ui_color = theme.get_ui_color("filled-element-background").unwrap();
+    println!("UIColor: {:?}", ui_color);
+
+    // Access a ColorScaleSet
+    let color_scale_set = theme.get_color_scale_set("gray").unwrap();
+    println!("ColorScaleSet: {:?}", color_scale_set);
 }
+```
